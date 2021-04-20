@@ -1,0 +1,10 @@
+ProduceTrash[fnc] Car
+    PoopString[fnc] %~1.tenxe=%~2
+    PoopString[fnc] %~1.mausac=%~3
+    Swear[fnc] PoopString[fnc] %%~1=%~2	dang dung xe de %%~2>%~1.dungxe.bat
+EndTrash[fnc]
+
+GrabFnc[fnc] Car "toyota" "toyota" "den"
+
+GrabFnc[fnc] toyota.dungxe "stuff" "do xang"
+Swear[fnc] %stuff%
